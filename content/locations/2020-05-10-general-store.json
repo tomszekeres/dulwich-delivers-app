@@ -16,8 +16,14 @@
   ],
   "website": "http://www.generalsto.re",
   "deliveryHours": [
-    "Friday 10:00 - 17:00"
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
   ],
   "email": "hello@generalsto.re",
-  "description": "Groceries & Provisions delivered in a weekly box every Friday. Delivering fresh produce, bread, milk, butter and lots of our storecupboard items. £5 for delivery using our own driver."
+  "description": "We aim to deliver all Same Day orders within 2 hours if placed before 2pm. Orders placed after 2pm will be delivered the following morning."
 }
