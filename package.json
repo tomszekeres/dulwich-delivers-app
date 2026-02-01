@@ -31,6 +31,7 @@
   "start:content": "chokidar 'content/**/**' -c 'npm run prepare-content'",
   "build:app": "react-scripts build",
   "build:react-snapshot": "react-snapshot",
+  "prepare-content": "node ./functions/parse-content.js",
   "parse-content": "node ./functions/parse-content.js",
   "test": "react-scripts test"
 },
