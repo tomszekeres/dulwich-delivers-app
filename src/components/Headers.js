@@ -7,11 +7,8 @@ import { Button } from './Buttons';
 export const Nav = () => {
   return (
     <StyledNav role="navigation">
-      <Button path="https://subship.co.uk">
-       🆕 Weekly Deliveries by Subship
-      </Button>
-      <Button path="http://getlisted.dulwichdelivers.com">
-        📍 List your business
+      <Button path="#stay-informed">
+        Get updates
       </Button>
     </StyledNav>
   )
@@ -19,11 +16,11 @@ export const Nav = () => {
 
 export const HeroHeader = ({ search }) => {
   return (
-    <StyledHeroHeader role="banner" style={{ backgroundImage: `url(/images/Header@2x.png)` }}>
+    <StyledHeroHeader role="banner">
       <Container>
-        <h1>Dulwich Delivers</h1>
-        <p>Local producers, shops & restaurants delivering contact-free to your door.</p>
-        <p>Search for what you'd like delivered e.g. coffee, hand sanitiser, beer, prescriptions, toilet paper:</p>
+        <h1>Walthamstow Finds</h1>
+        <p>A curated guide to the hidden gems, local favourites & underrated spots of E17.</p>
+        <p>Search by name or category, e.g. coffee, pub, park, brunch:</p>
         <LocationSearch />
       </Container>
     </StyledHeroHeader >
@@ -35,8 +32,6 @@ const StyledHeroHeader = styled.header`
   padding:var(--spacing-xxl) 0;
   padding-bottom:calc(var(--spacing-lg) * 2.5);
   background-color:var(--base);
-  background-size:cover;
-  background-position:top;
 
   h1 {
     color:var(--text-high-white);

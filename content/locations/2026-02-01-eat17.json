@@ -1,0 +1,11 @@
+{
+  "name": "Eat 17",
+  "description": "The restaurant that helped put Walthamstow on the foodie map. Known for their bacon jam (yes, really) and seasonal British menu. Also runs the deli and bottle shop next door.",
+  "address": "28-30 Orford Rd, Walthamstow, E17 9NJ",
+  "website": "https://www.eat17.co.uk",
+  "phone": "02085210033",
+  "tags": ["Restaurant", "Brunch", "British", "Dinner"],
+  "area": "Walthamstow Village",
+  "tip": "The brunch is one of the best in the area. Try the bacon jam on anything - it's their signature for a reason.",
+  "hours": "Mon-Fri 08:00-23:00, Sat-Sun 09:00-23:00"
+}

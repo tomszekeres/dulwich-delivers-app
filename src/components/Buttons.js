@@ -61,7 +61,7 @@ const StyledButtonPrimary = styled.button`
   }
 
   &:hover {
-    background-color:${darken(0.2, '#FF5630')};
+    background-color:${darken(0.15, '#D4A017')};
     transition:all .2s ease;
   }
 `
@@ -75,14 +75,14 @@ const StyledButtonSecondary = styled.button`
   color:var(--base);
   font-weight:700;
   border-radius:0.25rem;
-  border:2px solid rgba(11,19,43,0.7);  
+  border:2px solid rgba(27,67,50,0.7);
   margin:var(--spacing-sm) auto;  
   text-align:center;
   cursor:pointer;
   transition:all .2s ease;
 
   &:hover {
-    background-color:rgba(11,19,43,0.1);    
+    background-color:rgba(27,67,50,0.1);
     transition:all .2s ease;
   }
 `

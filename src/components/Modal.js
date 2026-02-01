@@ -16,7 +16,7 @@ export const Modal = (props) => {
     <StyledModalWrap visible={isOpen}>
       <StyledModalBase onClick={() => setIsOpen(false)} />
       <StyledModal>
-        <h3>Safety Guidelines</h3>
+        <h3>Local Tip</h3>
         <p>{modalContent.data}</p>
         <ButtonText onClick={() => setIsOpen(false)}>Dismiss</ButtonText>
       </StyledModal>
@@ -44,7 +44,7 @@ const StyledModalBase = styled.div`
   position:fixed;
   display:block;
   top:0;
-  left:0; 
+  left:0;
   top:0;
   left:0;
   width:100%;

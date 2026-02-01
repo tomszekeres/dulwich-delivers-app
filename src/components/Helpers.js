@@ -10,14 +10,6 @@ export const LoadingSpinner = (props) => {
   );
 };
 
-export const getDeliveryRange = (hours) => {
-  const firstDateTime = hours[0];
-  const lastDateTime = hours[hours.length - 1]
-  const getDay = dateTime => dateTime.replace(/ .*/, '');
-
-  return `${getDay(firstDateTime)} – ${getDay(lastDateTime)}`
-}
-
 export const isURL = (url) => {
   var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
   '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|'+ // domain name
@@ -30,7 +22,7 @@ export const isURL = (url) => {
 }
 
 export const formatPhone = (str) => {
-  return str.replace(/(\d{3})(\d{4})(\d{4})/,'$1 $2 $3'); 
+  return str.replace(/(\d{3})(\d{4})(\d{4})/,'$1 $2 $3');
 }
 
 export const isEmail = (str) => {

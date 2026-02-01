@@ -1,0 +1,9 @@
+{
+  "name": "Le Bureau",
+  "description": "A cosy independent coffee shop and workspace in the heart of Walthamstow Village. Excellent coffee, homemade cakes, and a relaxed vibe that makes it perfect for working or catching up with friends.",
+  "address": "49 Orford Rd, Walthamstow, E17 9NL",
+  "tags": ["Coffee", "Cafe", "Workspace", "Cakes"],
+  "area": "Walthamstow Village",
+  "tip": "One of the few cafes locally where you can comfortably work on a laptop without feeling like you're overstaying. Good wifi.",
+  "hours": "Mon-Fri 08:00-17:00, Sat-Sun 09:00-17:00"
+}

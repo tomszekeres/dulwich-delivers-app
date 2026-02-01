@@ -1,0 +1,11 @@
+{
+  "name": "The Nag's Head",
+  "description": "A proper village pub on Orford Road with a cracking beer garden. Good selection of craft beers and ales, solid pub food, and a genuinely friendly atmosphere. The heart of Walthamstow Village.",
+  "address": "9 Orford Rd, Walthamstow, E17 9LP",
+  "website": "https://www.nagsheade17.com",
+  "phone": "02085208976",
+  "tags": ["Pub", "Beer", "Garden", "Dog Friendly", "Food"],
+  "area": "Walthamstow Village",
+  "tip": "The beer garden fills up fast on sunny weekends. Get there early for a table, or try a weekday evening when it's calmer.",
+  "hours": "Mon-Thu 16:00-23:00, Fri 12:00-00:00, Sat 11:00-00:00, Sun 11:00-23:00"
+}

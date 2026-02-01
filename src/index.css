@@ -5,14 +5,14 @@
 
 :root {
   --bg:#f0f0f0;
-  --base:#0B132B;  
-  --base-light:rgba(11, 19, 43, 0.05);
-  --primary:#FF5630;
-  --secondary:#6554C0;
-  
+  --base:#1B4332;
+  --base-light:rgba(27, 67, 50, 0.05);
+  --primary:#D4A017;
+  --secondary:#52796F;
+
   --text-high:var(--base);
-  --text-med:rgba(11, 19, 43, 0.8);
-  --text-low:rgba(11, 19, 43, 0.4);
+  --text-med:rgba(27, 67, 50, 0.8);
+  --text-low:rgba(27, 67, 50, 0.4);
 
   --text-high-white:#FFF;
   --text-med-white:rgba(255,255,255,0.8);

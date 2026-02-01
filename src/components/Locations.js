@@ -11,7 +11,7 @@ import { LoadingSpinner } from './Helpers';
 // Fuse
 const { InputFilter, FilterResults } = fuzzyFilterFactory();
 const fuseConfig = {
-  keys: ["name", "tags"],
+  keys: ["name", "tags", "area"],
   threshold: 0.3
 };
 
@@ -19,7 +19,7 @@ export const LocationSearch = () => {
   return (
     <StyledInputWrap>
       <Search />
-      <InputFilter debounceTime={200} placeholder="What are you looking for" />
+      <InputFilter debounceTime={200} placeholder="Search for a place or category" />
     </StyledInputWrap>
   )
 
@@ -48,7 +48,7 @@ let totalAmountHidden = locations.length - (locationLimit);
           return (
             <Grid cols="3">
               {filteredItems.slice(0, locationLimit).map(location => {
-                const { cover, name, description, tags, address, website, phone, file, deliveryHours } = location
+                const { name, description, tags } = location
                 return (
                   <LocationCard key={name} details={location}>
                     <h4>{name}</h4>

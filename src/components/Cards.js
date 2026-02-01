@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Cookies from 'universal-cookie';
-import { MapPin, Truck, AlertCircle } from 'react-feather';
-import { getDeliveryRange, isURL, isEmail, formatPhone } from './Helpers';
+import { MapPin, Star, Clock } from 'react-feather';
+import { isURL, isEmail, formatPhone } from './Helpers';
 import { useData } from '../context/DataProvider';
 import { ButtonPrimary } from './Buttons';
 
@@ -43,20 +43,6 @@ export const CalloutCard = ({ children, ...rest }) => {
   )
 }
 
-const LocationCardAccordion = ({ title, children }) => {
-  const [isAccordionOpen, setIsAccordionOpen] = useState(false);
-  return (
-    <StyledAccordionWrap>
-      <StyledAccordionTitle onClick={() => setIsAccordionOpen(!isAccordionOpen)}>
-        <Truck /><p>{title}</p>
-      </StyledAccordionTitle>
-      <StyledAccordionBody isOpen={isAccordionOpen}>
-        {children}
-      </StyledAccordionBody>
-    </StyledAccordionWrap>
-  )
-}
-
 const LocationCardPropList = ({ children }) => {
   return (
     <StyledCardList>
@@ -66,30 +52,25 @@ const LocationCardPropList = ({ children }) => {
 }
 
 export const LocationCard = ({ details, children, ...rest }) => {
-  const { cover, name, website, phone, file, address, deliveryHours, safetyTips, email } = details;
+  const { cover, name, website, phone, address, email, tip, hours } = details;
   const { postModalContent } = useData();
   return (
     <StyledCard base="#fff" {...rest}>
-      <StyledCardImageWrap>
-        <a target="_blank" href={`${website}`}><img src={cover} alt={name} /></a>
-      </StyledCardImageWrap>
+      {cover && <StyledCardImageWrap>
+        {website ? <a target="_blank" rel="noopener noreferrer" href={`${website}`}><img src={cover} alt={name} /></a> : <img src={cover} alt={name} />}
+      </StyledCardImageWrap>}
       <StyledCardBody>
         {children}
       </StyledCardBody>
       <LocationCardPropList>
         {address && <li><MapPin /><p>{address}</p></li>}
-        {deliveryHours && deliveryHours.length > 0 && <li>
-          <LocationCardAccordion title={getDeliveryRange(deliveryHours)}>
-            {deliveryHours.map(time => <small key={time}>{time}</small>)}
-          </LocationCardAccordion>
-        </li>}
-        {safetyTips && <li onClick={() => postModalContent(safetyTips)}><AlertCircle /><p>Safety precautions</p></li>}
+        {hours && <li><Clock /><p>{hours}</p></li>}
+        {tip && <li onClick={() => postModalContent(tip)}><Star /><p>Local tip</p></li>}
       </LocationCardPropList>
       <StyledCardLinks>
-        {website && isURL(website) && <li><StyledCardLinkItem target="_blank" href={`${website}`}>🔗 Order online</StyledCardLinkItem></li>}
-        {email && isEmail(email) && <li><StyledCardLinkItem href={`mailto:${email}`}>✉️ Email us</StyledCardLinkItem></li>}
-        {phone && <li><StyledCardLinkItem href={`tel://${phone.replace(/\s/g, '')}`}>{`🤙 Call ${formatPhone(phone)}`}</StyledCardLinkItem></li>}
-        {file && <li><StyledCardLinkItem href={`/uploads/${file}`}>📃 Download PDF</StyledCardLinkItem></li>}
+        {website && isURL(website) && <li><StyledCardLinkItem target="_blank" rel="noopener noreferrer" href={`${website}`}>Visit website</StyledCardLinkItem></li>}
+        {email && isEmail(email) && <li><StyledCardLinkItem href={`mailto:${email}`}>Send email</StyledCardLinkItem></li>}
+        {phone && <li><StyledCardLinkItem href={`tel://${phone.replace(/\s/g, '')}`}>{`Call ${formatPhone(phone)}`}</StyledCardLinkItem></li>}
       </StyledCardLinks>
     </StyledCard>
   )
@@ -187,33 +168,6 @@ const StyledCardList = styled.ul`
       flex:1;
       padding-left:var(--spacing-xs);
     }
-  }
-`
-const StyledAccordionWrap = styled.div`
-  display:block;
-`
-const StyledAccordionTitle = styled.div`
-  display:flex;
-  justify-content:flex-start;
-  align-items:center;
-  color:var(--text-med);
-  cursor:pointer;
-  text-decoration:none;
-
-  &:hover {
-    text-decoration:underline;
-  }
-`
-const StyledAccordionBody = styled.div`
-  will-change:max-height, overflow;
-  max-height:${props => props.isOpen ? '200px' : '0'};
-  overflow: ${ props => props.isOpen ? 'auto' : 'hidden'};
-  transition: all .2s ease;
-
-  small {
-    padding-top:1rem;
-    padding-left:2.5rem;
-    color:var(--text-low);
   }
 `
 const StyledCalloutCardInner = styled.div`

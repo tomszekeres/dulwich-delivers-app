@@ -1,6 +1,6 @@
 {
-  "short_name": "Dulwich Delivers",
-  "name": "Dulwich Delivers",
+  "short_name": "E17 Finds",
+  "name": "Walthamstow Finds",
   "icons": [
     {
       "src": "/images/android-icon-36x36.png",
@@ -46,6 +46,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#0B132B",
+  "theme_color": "#1B4332",
   "background_color": "#F0F0F0"
 }

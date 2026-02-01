@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Eat 17",
+    "description": "The restaurant that helped put Walthamstow on the foodie map. Known for their bacon jam (yes, really) and seasonal British menu. Also runs the deli and bottle shop next door.",
+    "address": "28-30 Orford Rd, Walthamstow, E17 9NJ",
+    "website": "https://www.eat17.co.uk",
+    "phone": "02085210033",
+    "tags": [
+      "Restaurant",
+      "Brunch",
+      "British",
+      "Dinner"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "The brunch is one of the best in the area. Try the bacon jam on anything - it's their signature for a reason.",
+    "hours": "Mon-Fri 08:00-23:00, Sat-Sun 09:00-23:00",
+    "id": "2026-02-01-eat17"
+  },
+  {
+    "name": "God's Own Junkyard",
+    "description": "A dazzling warehouse full of neon signs, vintage film props and salvaged art. Free entry, with a bar and kitchen next door at the Rolling Scones cafe. One of the most photographed spots in E17.",
+    "address": "Unit 12, Ravenswood Industrial Estate, Shernhall St, E17 9HQ",
+    "website": "https://www.godsownjunkyard.co.uk",
+    "tags": [
+      "Art",
+      "Free",
+      "Weekend",
+      "Photography"
+    ],
+    "area": "Walthamstow Central",
+    "tip": "Go on a Saturday or Sunday when it's open to the public. The cafe does a solid brunch and you can sit among the neon while you eat.",
+    "hours": "Sat-Sun 11:00-18:00",
+    "id": "2026-02-01-gods-own-junkyard"
+  },
+  {
+    "name": "Le Bureau",
+    "description": "A cosy independent coffee shop and workspace in the heart of Walthamstow Village. Excellent coffee, homemade cakes, and a relaxed vibe that makes it perfect for working or catching up with friends.",
+    "address": "49 Orford Rd, Walthamstow, E17 9NL",
+    "tags": [
+      "Coffee",
+      "Cafe",
+      "Workspace",
+      "Cakes"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "One of the few cafes locally where you can comfortably work on a laptop without feeling like you're overstaying. Good wifi.",
+    "hours": "Mon-Fri 08:00-17:00, Sat-Sun 09:00-17:00",
+    "id": "2026-02-01-le-bureau"
+  },
+  {
+    "name": "Mother's Ruin",
+    "description": "A gin-focused bar tucked away on Orford Road with an impressive cocktail menu and a beautifully designed interior. Small but perfectly formed, with a speakeasy quality that makes you feel like you've discovered something.",
+    "address": "18 Orford Rd, Walthamstow, E17 9NJ",
+    "website": "https://www.mothersruingin.com",
+    "tags": [
+      "Bar",
+      "Cocktails",
+      "Gin",
+      "Date Night"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "Try the seasonal cocktail menu - they change it regularly. It's small so booking is advisable for weekend evenings.",
+    "hours": "Wed-Thu 17:00-23:00, Fri-Sat 14:00-00:00, Sun 14:00-22:00",
+    "id": "2026-02-01-mothers-ruin"
+  },
+  {
+    "name": "Orford House",
+    "description": "A beautifully restored social club in Lloyd Park, right next to the William Morris Gallery. Great for coffees, weekend brunches, and summer drinks in the garden. Regular community events and live music.",
+    "address": "225 Forest Rd, Walthamstow, E17 6JF",
+    "website": "https://www.orfordhousee17.co.uk",
+    "tags": [
+      "Coffee",
+      "Brunch",
+      "Garden",
+      "Live Music"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "Combine it with a visit to the William Morris Gallery next door. The garden terrace is one of the best kept secrets in E17 on a sunny day.",
+    "hours": "Tue-Sun 09:00-23:00",
+    "id": "2026-02-01-orford-house"
+  },
+  {
+    "name": "Signature Brew",
+    "description": "A music-themed brewery and taproom on Blackhorse Road. They collaborate with bands to create unique beers and host regular live music events. Big space, good vibes, and excellent beer.",
+    "address": "Unit 11, Uplands Business Park, Blackhorse Ln, E17 5QJ",
+    "website": "https://www.signaturebrew.co.uk",
+    "tags": [
+      "Beer",
+      "Brewery",
+      "Live Music",
+      "Dog Friendly"
+    ],
+    "area": "Blackhorse Road",
+    "tip": "Check their events calendar for live music nights. The Roadie IPA is a reliable go-to. Dog-friendly and family-friendly during the day.",
+    "hours": "Thu-Fri 17:00-23:00, Sat 12:00-23:00, Sun 12:00-20:00",
+    "id": "2026-02-01-signature-brew"
+  },
+  {
+    "name": "Sodo Pizza",
+    "description": "Sourdough pizza fired in a proper wood oven. Consistently excellent, with creative seasonal specials alongside the classics. The kind of local pizza place that makes you stop ordering from chains.",
+    "address": "3 High St, Walthamstow, E17 7LD",
+    "website": "https://www.sodopizza.com",
+    "phone": "02035816999",
+    "tags": [
+      "Pizza",
+      "Restaurant",
+      "Takeaway",
+      "Dinner"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "The NDuja pizza is outstanding. Book ahead for Friday and Saturday evenings - it gets busy.",
+    "hours": "Mon-Sun 12:00-22:00",
+    "id": "2026-02-01-sodo-pizza"
+  },
+  {
+    "name": "The Nag's Head",
+    "description": "A proper village pub on Orford Road with a cracking beer garden. Good selection of craft beers and ales, solid pub food, and a genuinely friendly atmosphere. The heart of Walthamstow Village.",
+    "address": "9 Orford Rd, Walthamstow, E17 9LP",
+    "website": "https://www.nagsheade17.com",
+    "phone": "02085208976",
+    "tags": [
+      "Pub",
+      "Beer",
+      "Garden",
+      "Dog Friendly",
+      "Food"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "The beer garden fills up fast on sunny weekends. Get there early for a table, or try a weekday evening when it's calmer.",
+    "hours": "Mon-Thu 16:00-23:00, Fri 12:00-00:00, Sat 11:00-00:00, Sun 11:00-23:00",
+    "id": "2026-02-01-the-nags-head"
+  },
+  {
+    "name": "Walthamstow Market",
+    "description": "Europe's longest daily outdoor street market, stretching the full length of the High Street. A proper East London market with everything from fresh fruit and veg to fabric, household goods, and street food.",
+    "address": "Walthamstow High St, E17 7LD",
+    "tags": [
+      "Market",
+      "Shopping",
+      "Food",
+      "Free"
+    ],
+    "area": "Walthamstow Central",
+    "tip": "Tuesday to Saturday is best for the full experience. The fruit and veg stalls near the town square end are significantly cheaper than the supermarkets.",
+    "hours": "Tue-Sat 08:00-17:30",
+    "id": "2026-02-01-walthamstow-market"
+  },
+  {
+    "name": "Walthamstow Wetlands",
+    "description": "A 211-hectare nature reserve right in the middle of London, built around Victorian reservoirs. Home to herons, kingfishers, and some of the best skyline views in East London. Completely free.",
+    "address": "2 Forest Rd, London N17 9NH",
+    "website": "https://www.walthamstowwetlands.com",
+    "tags": [
+      "Nature",
+      "Free",
+      "Walk",
+      "Wildlife",
+      "Dog Friendly"
+    ],
+    "area": "Tottenham Hale",
+    "tip": "Enter via the Marine Engine House on Forest Road for the cafe, or from Coppermill Lane for a quieter start. The bittern hide is worth the walk in winter.",
+    "hours": "Daily 09:30-16:00 (winter), 09:30-17:00 (summer)",
+    "id": "2026-02-01-walthamstow-wetlands"
+  },
+  {
+    "name": "Wild Card Brewery",
+    "description": "Walthamstow's original craft brewery with a large taproom on the Ravenswood Industrial Estate. Rotating guest food trucks, dog-friendly, and a proper community pub feel despite the industrial setting.",
+    "address": "Unit 7, Ravenswood Industrial Estate, Shernhall St, E17 9HQ",
+    "website": "https://www.wildcardbrewery.co.uk",
+    "tags": [
+      "Beer",
+      "Pub",
+      "Dog Friendly",
+      "Weekend"
+    ],
+    "area": "Walthamstow Central",
+    "tip": "Their Jack of Clubs pale ale is the house classic. Food trucks rotate weekly - check their Instagram for the latest lineup.",
+    "hours": "Thu-Fri 17:00-23:00, Sat 12:00-23:00, Sun 12:00-21:00",
+    "id": "2026-02-01-wild-card-brewery"
+  },
+  {
+    "name": "William Morris Gallery",
+    "description": "The only public gallery devoted to the life and work of William Morris, housed in his childhood home in Lloyd Park. A genuinely world-class museum that happens to be free and in Walthamstow.",
+    "address": "Lloyd Park, Forest Rd, Walthamstow, E17 4PP",
+    "website": "https://www.wmgallery.org.uk",
+    "tags": [
+      "Art",
+      "Museum",
+      "Free",
+      "History"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "The gift shop is excellent for unique presents. Check the website for their temporary exhibitions - they're always interesting.",
+    "hours": "Wed-Sun 10:00-17:00",
+    "id": "2026-02-01-william-morris-gallery"
+  }
+]

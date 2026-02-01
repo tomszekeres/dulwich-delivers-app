@@ -27,8 +27,8 @@ const App = () => {
       </React.Suspense>
       <Container style={{ paddingBottom: '6rem' }}>
         <CalloutCard id="stay-informed">
-          <h2>Get Updates</h2>
-          <p>Sign up for occasional emails from Dulwich Delivers. We'll tell you about new listings that we've added, and highlight offers and discounts.</p>
+          <h2>Stay in the Loop</h2>
+          <p>Get occasional emails when we add new finds to the guide. No spam, just good places.</p>
           <MailchimpSubscribe
             url={url}
             render={({ subscribe, status, message }) => (
