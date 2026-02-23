@@ -1,22 +1,5 @@
 [
   {
-    "name": "Eat 17",
-    "description": "The restaurant that helped put Walthamstow on the foodie map. Known for their bacon jam (yes, really) and seasonal British menu. Also runs the deli and bottle shop next door.",
-    "address": "28-30 Orford Rd, Walthamstow, E17 9NJ",
-    "website": "https://www.eat17.co.uk",
-    "phone": "02085210033",
-    "tags": [
-      "Restaurant",
-      "Brunch",
-      "British",
-      "Dinner"
-    ],
-    "area": "Walthamstow Village",
-    "tip": "The brunch is one of the best in the area. Try the bacon jam on anything - it's their signature for a reason.",
-    "hours": "Mon-Fri 08:00-23:00, Sat-Sun 09:00-23:00",
-    "id": "2026-02-01-eat17"
-  },
-  {
     "name": "God's Own Junkyard",
     "description": "A dazzling warehouse full of neon signs, vintage film props and salvaged art. Free entry, with a bar and kitchen next door at the Rolling Scones cafe. One of the most photographed spots in E17.",
     "address": "Unit 12, Ravenswood Industrial Estate, Shernhall St, E17 9HQ",
@@ -193,5 +176,38 @@
     "tip": "The gift shop is excellent for unique presents. Check the website for their temporary exhibitions - they're always interesting.",
     "hours": "Wed-Sun 10:00-17:00",
     "id": "2026-02-01-william-morris-gallery"
+  },
+  {
+    "name": "Olfa Club",
+    "description": "A Japanese-inspired listening bar with a precision hi-fi system, 40+ wines by the glass, specialist coffee, and a curious focus on mineral water tasting. From the couple behind Long & Short café. No website - they operate via WhatsApp community.",
+    "address": "46 St James St, Walthamstow, E17 7PE",
+    "website": "https://www.instagram.com/olfaclub",
+    "tags": [
+      "Bar",
+      "Wine",
+      "Music",
+      "Coffee",
+      "Listening Bar"
+    ],
+    "area": "St James Street",
+    "tip": "Bring your own vinyl for a needle drop if you want. The mineral water thing sounds odd but try it - each drop tastes like a different place. No official website, join the WhatsApp for events.",
+    "hours": "Check Instagram for hours",
+    "id": "2026-02-23-olfa-club"
+  },
+  {
+    "name": "The Good Egg",
+    "description": "Israeli and Middle Eastern-inspired all-day dining from the team behind the Stoke Newington original. Expect shakshuka, sabich, and some of the best brunch in E17.",
+    "address": "28-30 Orford Rd, Walthamstow, E17 9NJ",
+    "website": "https://www.thegoodegg.co",
+    "tags": [
+      "Restaurant",
+      "Brunch",
+      "Middle Eastern",
+      "Israeli"
+    ],
+    "area": "Walthamstow Village",
+    "tip": "The shakshuka is the star, but don't sleep on the sabich. Gets busy at weekends - arrive early or be prepared to wait.",
+    "hours": "Mon-Fri 08:00-22:00, Sat-Sun 09:00-22:00",
+    "id": "2026-02-23-the-good-egg"
   }
 ]
